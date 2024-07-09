@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 280px; */
+    /* margin: 10px 60px; */
+    padding: 10px 50px;
+    border: 2px solid red;
+background-color: blue;
+}
