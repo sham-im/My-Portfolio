@@ -2,13 +2,71 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
+
+.dwnld-btn{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.dwnld-btn :hover {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: blue;
+}
+
+
 nav{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     /* gap: 280px; */
     /* margin: 10px 60px; */
     padding: 10px 50px;
+    margin: 10px auto;
+}
+
+.image{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    width: 100%;
+    border: 2px solid rgb(72, 0, 255);
+    position: absolute;
+    
+}
+header{
+    /* width: 70%; */
     border: 2px solid red;
-background-color: blue;
+    text-align: center;
+    align-items: center;
+    
+}
+.hero-sec{
+    border: 2px solid rgb(179, 255, 0);  
+
+}
+.head-1{
+    border: 2 px solid red;
+    
+}
+.head-2{
+    border: 2 px solid red;
+}
+.head-3{
+    border: 2 px solid red;
+}
+.contact-with-me{
+    position: relative;
+    border-radius: 8px;
+    font-size: larger;
+    background-color: #0d1321;
+    color: white;
+    padding: 15px;
 }
