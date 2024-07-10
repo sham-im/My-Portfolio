@@ -244,11 +244,15 @@ background-color: #fffdf2;
 
 .react-js-sec{
     display: flex;
-    margin: auto;
+    align-items: center;
+    margin: 50px ;
+    border-radius: 10px;
     padding: 10px;
+    border: 2px solid rgb(174, 181, 174);
+    box-shadow: 5px 5px 5px rgb(240, 235, 245);
     /* align-items: center; */
-    background-color: greenyellow;
-    width: 80%;
+    background-color: rgb(248, 248, 248);
+
 }
 .react-js{
     display: flex;
@@ -256,5 +260,55 @@ background-color: #fffdf2;
     justify-content: space-evenly;
     padding: 20px;
     gap: 20px;
+    /* border: 3px solid red; */
+}
+/* support section start here  */
+
+.super-deals-container{
+    width: 90%;
+    height: 449px;
+    margin: 0 auto;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-image: url(image/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.super-deals-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.deals-content p {
+    margin: 20px;
+}
+.deals-content input{
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+}
+.deals-content button{
+    border-radius: 5px;
+
+    width: 80px;
+    height: 40px;
+}
+
+.sec-footer{
     border: 3px solid red;
+    background-color: green;
+}
+.foot-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin-top: 80px;
+    
+    /* background-color: green; */
 }
